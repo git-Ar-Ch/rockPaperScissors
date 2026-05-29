@@ -14,9 +14,9 @@ public class RockPaperScissors {
 	// Takes in an ArrayList of choices from the user and AI
 	static int determineWinner (ArrayList<String> choices) {
 
-		// If there is Rock and NO Scissors,
+		// If there is Rock and Scissors,
 		// Rock wins, so return the index of Rock
-		if (choices.contains("R") && !choices.contains("S")) {
+		if (choices.contains("R") && choices.contains("S")) {
 			return choices.indexOf("R");
 		}
 
