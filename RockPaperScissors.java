@@ -13,6 +13,6 @@ public class RockPaperScissors {
 		return -1;
 	}
 	public static void main(String[] args) {
-		
+		NIGGER
 	}
 }
